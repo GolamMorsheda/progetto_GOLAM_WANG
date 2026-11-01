@@ -1,7 +1,6 @@
 # Progetto 1 — Analisi della Serie A 2025/26
 
-## Gruppo
-- **GRUPPO GOLAM_WANG**: 
+## Gruppo GOLAM_WANG
 
 - **GOLAM**: Sviluppo della funzione di caricamento (`carica`) e della Domanda 1.
 
