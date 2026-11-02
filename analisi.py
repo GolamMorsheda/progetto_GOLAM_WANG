@@ -13,10 +13,6 @@ def carica(nomefile):
     righe_buone = []
     righe_scartate = 0
 
-
-    righe_buone = []
-    righe_scartate = 0
-
     with open(nomefile, "r", encoding="utf-8") as f:
         lettore = csv.reader(f)
 
