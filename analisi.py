@@ -14,26 +14,28 @@ def carica(nomefile):
     righe_scartate = 0
 
     with open(nomefile, "r", encoding="utf-8") as f:
+        #analizza il file riga per riga e trasforma ogni riga in una lista di stringhe, 
+        #separando i valori automaticamente dove trova la virgola (o un altro separatore).
         lettore = csv.reader(f)
 
         for riga in lettore:
-            # Scarta le righe vuote o con elementi mancanti
-            if not riga or len(riga) == 0:
+    # Se la riga NON è vuota, la elaboriamo
+            if riga:
+                riga_convertita = []
+
+                for valore in riga:
+                    valore_pulito = valore.strip()
+                    if valore_pulito.isdigit():
+                        riga_convertita.append(int(valore_pulito))
+                    else:
+                        riga_convertita.append(valore_pulito)
+
+                righe_buone.append(riga_convertita)
+
+            # Altrimenti (se è vuota), la contiamo come scartata
+            else:
                 righe_scartate += 1
-                continue
 
-            riga_convertita = []
-
-            for valore in riga:
-                valore_pulito = valore.strip()
-
-                # Controlla se la stringa è composta solo da numeri
-                if valore_pulito.isdigit():
-                    riga_convertita.append(int(valore_pulito))
-                else:
-                    riga_convertita.append(valore_pulito)
-
-            righe_buone.append(riga_convertita)
 
     return righe_buone, righe_scartate
 
