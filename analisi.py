@@ -13,47 +13,31 @@ def carica(nomefile):
     righe_buone = []
     righe_scartate = 0
 
-    try:
-        with open(nomefile, "r", encoding="utf-8") as f:
-            # Usa csv.reader per gestire automaticamente virgole, virgolette e ritorni a capo
-            lettore = csv.reader(f)
 
-            # Se il file ha un'intestazione (header), puoi leggerla o saltarla così:
-            # header = next(lettore)
+    righe_buone = []
+    righe_scartate = 0
 
-            for riga in lettore:
-                # Salta le righe completamente vuote
-                if not riga:
-                    righe_scartate += 1
-                    continue
+    with open(nomefile, "r", encoding="utf-8") as f:
+        lettore = csv.reader(f)
 
-                riga_convertita = []
-                riga_pulita = True
+        for riga in lettore:
+            # Scarta le righe vuote o con elementi mancanti
+            if not riga or len(riga) == 0:
+                righe_scartate += 1
+                continue
 
-                for valore in riga:
-                    valore_pulito = valore.strip()
-                    # Tenta la conversione in intero
-                    try:
-                        riga_convertita.append(int(valore_pulito))
-                    except ValueError:
-                        # Se fallisce, tenta la conversione in float
-                        try:
-                            riga_convertita.append(float(valore_pulito))
-                        except ValueError:
-                            # Se non è un numero, mantiene la stringa originale
-                            riga_convertita.append(valore_pulito)
+            riga_convertita = []
 
-                # Opzionale: inserisci qui un controllo sulla struttura della riga
-                # Es. se ti aspetti esattamente 5 colonne: if len(riga_convertita) != 5: riga_pulita = False
+            for valore in riga:
+                valore_pulito = valore.strip()
 
-                if riga_pulita:
-                    righe_buone.append(riga_convertita)
+                # Controlla se la stringa è composta solo da numeri
+                if valore_pulito.isdigit():
+                    riga_convertita.append(int(valore_pulito))
                 else:
-                    righe_scartate += 1
+                    riga_convertita.append(valore_pulito)
 
-    except FileNotFoundError:
-        print(f"Errore: Il file {nomefile} non esiste.")
-        return [], 0
+            righe_buone.append(riga_convertita)
 
     return righe_buone, righe_scartate
 
