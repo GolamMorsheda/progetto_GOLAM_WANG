@@ -1,6 +1,6 @@
 import csv
 
-FILE = "dati/nome-del-vostro-file.csv"
+FILE = "dati/serie-a-2025-26.csv"
 
 
 def carica(nomefile):
