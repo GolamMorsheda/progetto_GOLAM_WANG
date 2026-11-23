@@ -1,0 +1,202 @@
+[
+  {
+    "Squadra": "Genoa",
+    "Punti": 41,
+    "Vinte": 10,
+    "Pareggiate": 11,
+    "Perse": 17,
+    "Gol Fatti": 41,
+    "Gol Subiti": 51,
+    "Diff Reti": -10
+  },
+  {
+    "Squadra": "Lecce",
+    "Punti": 38,
+    "Vinte": 10,
+    "Pareggiate": 8,
+    "Perse": 20,
+    "Gol Fatti": 28,
+    "Gol Subiti": 50,
+    "Diff Reti": -22
+  },
+  {
+    "Squadra": "Sassuolo",
+    "Punti": 49,
+    "Vinte": 14,
+    "Pareggiate": 7,
+    "Perse": 17,
+    "Gol Fatti": 46,
+    "Gol Subiti": 50,
+    "Diff Reti": -4
+  },
+  {
+    "Squadra": "Napoli",
+    "Punti": 76,
+    "Vinte": 23,
+    "Pareggiate": 7,
+    "Perse": 8,
+    "Gol Fatti": 58,
+    "Gol Subiti": 36,
+    "Diff Reti": 22
+  },
+  {
+    "Squadra": "Milan",
+    "Punti": 70,
+    "Vinte": 20,
+    "Pareggiate": 10,
+    "Perse": 8,
+    "Gol Fatti": 53,
+    "Gol Subiti": 35,
+    "Diff Reti": 18
+  },
+  {
+    "Squadra": "Cremonese",
+    "Punti": 34,
+    "Vinte": 8,
+    "Pareggiate": 10,
+    "Perse": 20,
+    "Gol Fatti": 32,
+    "Gol Subiti": 57,
+    "Diff Reti": -25
+  },
+  {
+    "Squadra": "Roma",
+    "Punti": 73,
+    "Vinte": 23,
+    "Pareggiate": 4,
+    "Perse": 11,
+    "Gol Fatti": 59,
+    "Gol Subiti": 31,
+    "Diff Reti": 28
+  },
+  {
+    "Squadra": "Bologna",
+    "Punti": 56,
+    "Vinte": 16,
+    "Pareggiate": 8,
+    "Perse": 14,
+    "Gol Fatti": 49,
+    "Gol Subiti": 46,
+    "Diff Reti": 3
+  },
+  {
+    "Squadra": "Cagliari",
+    "Punti": 43,
+    "Vinte": 11,
+    "Pareggiate": 10,
+    "Perse": 17,
+    "Gol Fatti": 40,
+    "Gol Subiti": 53,
+    "Diff Reti": -13
+  },
+  {
+    "Squadra": "Fiorentina",
+    "Punti": 42,
+    "Vinte": 9,
+    "Pareggiate": 15,
+    "Perse": 14,
+    "Gol Fatti": 41,
+    "Gol Subiti": 50,
+    "Diff Reti": -9
+  },
+  {
+    "Squadra": "Como",
+    "Punti": 71,
+    "Vinte": 20,
+    "Pareggiate": 11,
+    "Perse": 7,
+    "Gol Fatti": 65,
+    "Gol Subiti": 29,
+    "Diff Reti": 36
+  },
+  {
+    "Squadra": "Lazio",
+    "Punti": 54,
+    "Vinte": 14,
+    "Pareggiate": 12,
+    "Perse": 12,
+    "Gol Fatti": 41,
+    "Gol Subiti": 40,
+    "Diff Reti": 1
+  },
+  {
+    "Squadra": "Atalanta",
+    "Punti": 59,
+    "Vinte": 15,
+    "Pareggiate": 14,
+    "Perse": 9,
+    "Gol Fatti": 51,
+    "Gol Subiti": 36,
+    "Diff Reti": 15
+  },
+  {
+    "Squadra": "Pisa",
+    "Punti": 18,
+    "Vinte": 2,
+    "Pareggiate": 12,
+    "Perse": 24,
+    "Gol Fatti": 26,
+    "Gol Subiti": 71,
+    "Diff Reti": -45
+  },
+  {
+    "Squadra": "Juventus",
+    "Punti": 69,
+    "Vinte": 19,
+    "Pareggiate": 12,
+    "Perse": 7,
+    "Gol Fatti": 61,
+    "Gol Subiti": 34,
+    "Diff Reti": 27
+  },
+  {
+    "Squadra": "Parma",
+    "Punti": 45,
+    "Vinte": 11,
+    "Pareggiate": 12,
+    "Perse": 15,
+    "Gol Fatti": 28,
+    "Gol Subiti": 46,
+    "Diff Reti": -18
+  },
+  {
+    "Squadra": "Udinese",
+    "Punti": 50,
+    "Vinte": 14,
+    "Pareggiate": 8,
+    "Perse": 16,
+    "Gol Fatti": 45,
+    "Gol Subiti": 48,
+    "Diff Reti": -3
+  },
+  {
+    "Squadra": "Verona",
+    "Punti": 21,
+    "Vinte": 3,
+    "Pareggiate": 12,
+    "Perse": 23,
+    "Gol Fatti": 25,
+    "Gol Subiti": 61,
+    "Diff Reti": -36
+  },
+  {
+    "Squadra": "Inter",
+    "Punti": 87,
+    "Vinte": 27,
+    "Pareggiate": 6,
+    "Perse": 5,
+    "Gol Fatti": 89,
+    "Gol Subiti": 35,
+    "Diff Reti": 54
+  },
+  {
+    "Squadra": "Torino",
+    "Punti": 45,
+    "Vinte": 12,
+    "Pareggiate": 9,
+    "Perse": 17,
+    "Gol Fatti": 44,
+    "Gol Subiti": 63,
+    "Diff Reti": -19
+  }
+]
